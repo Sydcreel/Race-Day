@@ -17,9 +17,9 @@ if (earlyRegister && runnerAge > 18){
     console.log(`Hello, #${raceNumber}! Your race begins at 9:30 A.M.`);
 } else if (earlyRegister = false && runnerAge > 18){
     console.log(`Hello, #${raceNumber}! Your race begins at 11:00 A.M.`);
-}
-
 // tells runners under 18 that race will start at 12:30pm.
-if (runnerAge < 18){
+} else if (runnerAge < 18){
     console.log(`Hello, #${raceNumber}! Your race begins at 12:30 P.M.`);
+} else {
+    console.log(`Hello, #${raceNumber}! See registration desk for race start time.`);
 }
